@@ -1,11 +1,11 @@
 print("Здравствуй, Евгений, я хочу сыграть с тобой в игру.")
 
-numbers = input("Введи номер своей банковской карты: ")
+signs = input("Напиши самое длинное слово которое знаешь: ")
 
-even_numbers = numbers[1::2]
+even_signs = signs[1::2]
 
-reverse_numbers_big = numbers[-1::-1]
+reverse_signs_big = signs[-1::-1]
 
-print(numbers)
-print(even_numbers)
-print(reverse_numbers_big.upper())
+print(signs)
+print(even_signs)
+print(reverse_signs_big.upper())
